@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pesquisa de endereço</title>
-    <script src="./index.js"></script>
     <link href="./style.css" rel="stylesheet">
 </head>
 <body>
     <main class="address">
         <h1>Endereço</h1>
-        <form class="input-grid" name="address">
-            <input name="cep" id="cep" maxlength="9" onchange="getCep()" type="text" placeholder="CEP"/>
-            <input name="street" type="text" placeholder="Rua"/>
-            <input name="number" type="text" placeholder="Numero"/>
-            <input name="neighborhood" type="text" placeholder="Bairro"/>
-            <input name="state" type="text" placeholder="Estado" maxlength="2"/>
-            <input name="city" type="text" placeholder="Cidade"/>
+        <form class="input-grid" id="address">
+            <input id="cep" id="cep" maxlength="9" type="text" placeholder="CEP"/>
+            <input id="street" type="text" placeholder="Rua"/>
+            <input id="number" type="text" placeholder="Numero"/>
+            <input id="neighborhood" type="text" placeholder="Bairro"/>
+            <input id="state" type="text" placeholder="Estado" maxlength="2"/>
+            <input id="city" type="text" placeholder="Cidade"/>
         </form>
     </main>
+    <script src="./index.js"></script>
 </body>
 </html>
